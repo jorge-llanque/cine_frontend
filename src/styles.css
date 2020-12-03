@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --primary-color: #363537;
+    --secundary-color: #211E1D;
+    --third-color: #262224;
+    --fourth-color: #868284;
+    --fifth-color: #0FAE87;
+    --sixth-color: #868284;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'system-ui';
+}
+
+body {
+    background-color: var(--primary-color);
+}
